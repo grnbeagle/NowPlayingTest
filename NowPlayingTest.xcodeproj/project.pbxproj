@@ -12,6 +12,7 @@
 		E177F2981CA9F3BA00AC0285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E177F2961CA9F3BA00AC0285 /* Main.storyboard */; };
 		E177F29A1CA9F3BA00AC0285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E177F2991CA9F3BA00AC0285 /* Assets.xcassets */; };
 		E177F29D1CA9F3BA00AC0285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E177F29B1CA9F3BA00AC0285 /* LaunchScreen.storyboard */; };
+		E177F2A71CAB65B500AC0285 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E177F2A61CAB65B500AC0285 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E177F2991CA9F3BA00AC0285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E177F29C1CA9F3BA00AC0285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E177F29E1CA9F3BA00AC0285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E177F2A61CAB65B500AC0285 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E177F2A71CAB65B500AC0285 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		E177F2861CA9F3BA00AC0285 = {
 			isa = PBXGroup;
 			children = (
+				E177F2A61CAB65B500AC0285 /* AVFoundation.framework */,
 				E177F2911CA9F3BA00AC0285 /* NowPlayingTest */,
 				E177F2901CA9F3BA00AC0285 /* Products */,
 			);
@@ -286,6 +290,7 @@
 				E177F2A31CA9F3BA00AC0285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
